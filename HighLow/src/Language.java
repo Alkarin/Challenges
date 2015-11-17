@@ -22,6 +22,10 @@ public class Language {
             if (array[i] == 'V') {
                 System.out.print(getUpVowel());
             }
+            if (array[i] == ' ') {
+                System.out.print(' ');
+            }
+
         }
     }
     public static char getVowel(){
